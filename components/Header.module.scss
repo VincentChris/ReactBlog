@@ -11,11 +11,11 @@
 
   :global {
     .ant-menu {
-      line-height: 2.6rem;
+      line-height: 2.8rem;
     }
 
     .ant-menu-item {
-      font-size: .7rem;
+      font-size: $head-ant-menu-item-font-size;
       padding-left: 1rem;
       padding-right: 1rem;
     }

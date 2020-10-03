@@ -10,7 +10,7 @@ import {
 const Header: FC = () => (
   <div className={Style.header}>
     <Row justify="center">
-      <Col xs={24} sm={24} md={10} lg={10} xl={10}>
+      <Col xs={24} sm={24} md={10} lg={15} xl={12}>
         <span className={Style.headerLogo}>
           雁城慕容复
         </span>

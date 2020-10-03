@@ -2,11 +2,8 @@ import React, { FC } from "react";
 import Style from "./Header.module.scss";
 import { Col, Menu, Row } from "antd";
 import {
-  HomeFilled,
   HomeOutlined,
-  SmileFilled,
   SmileOutlined,
-  YoutubeFilled,
   YoutubeOutlined
 } from "@ant-design/icons";
 

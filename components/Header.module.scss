@@ -1,4 +1,5 @@
 @import "public/styles/variables/color_variables";
+@import "public/styles/variables/font_variables";
 
 .header {
   width: 100%;
@@ -7,17 +8,31 @@
   overflow: hidden;
   height: 3.2rem;
   border-bottom: 1px solid $head-border-color;
+
+  :global {
+    .ant-menu {
+      line-height: 2.6rem;
+    }
+
+    .ant-menu-item {
+      font-size: .7rem;
+      padding-left: 1rem;
+      padding-right: 1rem;
+    }
+  }
 }
 
 .headerLogo {
-  color: #1e90ff;
-  font-size: 1.4rem;
+  color: $head-logo-color;
+  font-size: $head-logo-font-size;
   text-align: left;
 }
 
 .headerTxt {
-  font-size: .6rem;
-  color: #999;
+  font-size: $head-txt-font-size;
+  color: $head-txt-color;
   display: inline-block;
   padding-left: .3rem;
 }
+
+

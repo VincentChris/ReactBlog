@@ -1,5 +1,6 @@
 //项目全局样式
 @import "~normalize.css";
+@import "variables/color_variables";
 
 html,
 body {
@@ -16,4 +17,8 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+body {
+  background-color: $body-bg-color;
 }

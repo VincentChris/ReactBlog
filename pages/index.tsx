@@ -10,7 +10,7 @@ const Home: React.FC<null> = () => {
         <title>Home</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Button className={styles.button}>测试</Button>
+      <Button type={"primary"} className={styles.button}>测试</Button>
     </div>
   );
 };

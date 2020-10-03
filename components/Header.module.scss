@@ -1,0 +1,23 @@
+@import "public/styles/variables/color_variables";
+
+.header {
+  width: 100%;
+  background-color: $head-bg-color;
+  padding: .4rem;
+  overflow: hidden;
+  height: 3.2rem;
+  border-bottom: 1px solid $head-border-color;
+}
+
+.headerLogo {
+  color: #1e90ff;
+  font-size: 1.4rem;
+  text-align: left;
+}
+
+.headerTxt {
+  font-size: .6rem;
+  color: #999;
+  display: inline-block;
+  padding-left: .3rem;
+}

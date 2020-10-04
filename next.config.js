@@ -21,7 +21,7 @@ const lessNextConfig = {
 const sassNextConfig = {
   cssModules: true,
   cssLoaderOptions: {
-    localIdentName: "[local]_[hash:base64:5]"
+    localIdentName: "[name][local]_[hash:base64:5]"
   }
 };
 

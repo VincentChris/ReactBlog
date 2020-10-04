@@ -11,3 +11,9 @@ npm run dev
 yarn dev
 ```
 
+## 技术栈  
+
+* 前端  
+    * next v9.5.3  
+    * react v16.13.1 ` hooks ` + ` TypeScript `  
+    * `Scss` + `Css Module`

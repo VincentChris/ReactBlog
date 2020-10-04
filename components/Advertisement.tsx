@@ -1,5 +1,5 @@
 import React from "react";
-import style from "./Advertisement.module.scss";
+import style from "./Advertisement.scss";
 
 const Advertisement = (props) => (
   <div className={`${style.container} common-box`}>

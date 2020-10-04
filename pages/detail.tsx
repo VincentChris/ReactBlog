@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./detail.module.scss";
+import styles from "./detail.scss";
 import Header from "../components/Header";
 import { Col, Row } from "antd";
 

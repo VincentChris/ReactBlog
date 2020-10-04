@@ -1,5 +1,5 @@
 import React from "react";
-import style from "./Profile.module.scss";
+import style from "./Profile.scss";
 import { Avatar, Col, Divider, Row, Tag } from "antd";
 import { GithubOutlined, QqOutlined, TwitterOutlined, WechatOutlined, YoutubeOutlined } from "@ant-design/icons";
 

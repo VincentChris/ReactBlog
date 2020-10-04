@@ -1,5 +1,5 @@
 import React, { FC } from "react";
-import Style from "./Header.module.scss";
+import Style from "./Header.scss";
 import { Col, Menu, Row } from "antd";
 import {
   HomeOutlined,

@@ -5,6 +5,7 @@ import Header from "../components/Header";
 import { Col, List, Row } from "antd";
 import { IListItem } from "@api/types";
 import { CalendarOutlined, FireOutlined, FolderOutlined } from "@ant-design/icons";
+import Profile from "../components/Profile";
 
 const Home: React.FC<null> = () => {
   const [myList, setMyList] = useState<IListItem[]>(
@@ -55,7 +56,7 @@ const Home: React.FC<null> = () => {
             />
           </Col>
           <Col className={styles.right} xs={0} sm={0} md={7} lg={5} xl={4}>
-            right
+            <Profile />
           </Col>
         </Row>
       </div>

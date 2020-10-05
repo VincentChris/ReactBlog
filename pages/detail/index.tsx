@@ -1,5 +1,5 @@
 import React from "react";
-import { Breadcrumb, Col, Row } from "antd";
+import { Affix, Breadcrumb, Col, Row } from "antd";
 import HeaderComponent from "@components/Header/Header.component";
 import Head from "next/head";
 import {
@@ -12,7 +12,7 @@ import AdvertisementComponent from "@components/Advertisement/Advertisement.comp
 import FooterComponent from "@components/Footer/Footer.component";
 import ReactMarkdown from "react-markdown";
 import MarkdownNavbar from "markdown-navbar";
-// import "markdown-navbar/dist/navbar.css";
+import "markdown-navbar/dist/navbar.css";
 import styles from "./index.scss";
 
 const Index: React.FC = () => {
@@ -95,9 +95,16 @@ const Index: React.FC = () => {
           <Col className={styles.right} xs={0} sm={0} md={7} lg={5} xl={4}>
             <ProfileComponent />
             <AdvertisementComponent />
-            <div className={`${styles.detailNav} common-box`}>
-              <MarkdownNavbar source={markdown} ordered={false} />
-            </div>
+            <Affix offsetTop={5}>
+              <div className={`${styles.detailNav} common-box`}>
+                <div className={styles.navTitle}>文章目录</div>
+                <MarkdownNavbar
+                  className="article-menu"
+                  source={markdown}
+                  ordered={false}
+                />
+              </div>
+            </Affix>
           </Col>
         </Row>
         <FooterComponent />

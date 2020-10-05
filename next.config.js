@@ -1,4 +1,5 @@
 const withPlugins = require("next-compose-plugins");
+const withCss = require("@zeit/next-css");
 const withLess = require("@zeit/next-less");
 const withSass = require("@zeit/next-sass");
 const lessToJS = require("less-vars-to-js");
@@ -26,6 +27,12 @@ const sassNextConfig = {
 };
 
 module.exports = withPlugins([
+  [
+    withCss,
+    {
+      cssModules: false,
+    },
+  ],
   [withLess, lessNextConfig],
   [withSass, sassNextConfig],
 ]);

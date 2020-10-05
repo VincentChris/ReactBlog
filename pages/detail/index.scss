@@ -14,19 +14,20 @@
   padding: .3rem;
   border-radius: .3rem;
   border-bottom: 1px solid $main-content-left-border-color;
-  .detail{
-    .title{
+
+  .detail {
+    .title {
       font-size: 1.8rem;
       text-align: center;
       padding: 1rem;
     }
-    .content{
+
+    .content {
       padding: 1.3rem;
       font-size: 1rem;
     }
   }
 }
-
 
 
 .right {
@@ -35,5 +36,15 @@
   padding: .3rem;
   border-radius: .3rem;
   border-bottom: 1px solid $main-content-right-border-color;
+}
+
+.detailNav {
+}
+
+.navTitle{
+  text-align: center;
+  color: #888;
+  border-bottom: 1px solid rgb(30, 144, 255);
+  font-size: 1rem;
 }
 

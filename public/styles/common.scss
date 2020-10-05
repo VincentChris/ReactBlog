@@ -6,3 +6,29 @@
   border-radius: .3rem;
   border: 1px solid #eee;
 }
+
+.bread-container {
+  padding: .5rem;
+  border-bottom: 1px solid #eee;
+  background-color: #e1f0ff;
+}
+
+.center {
+  text-align: center;
+}
+
+code {
+  display: block;
+  background-color: #f3f3f3;
+  padding: .5rem !important;
+  overflow-y: auto;
+  font-weight: 300;
+  font-family: Menlo, monospace;
+  border-radius: .3rem;
+}
+
+.list-icon {
+  & > span {
+    padding: 0 .5rem;
+  }
+}

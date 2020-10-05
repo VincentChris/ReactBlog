@@ -1,26 +1,32 @@
-//项目全局样式
-@import "~normalize.css";
-@import "variables/color_variables";
-@import "common";
+:global {
+  //项目全局样式
+  @import "~normalize.css";
+  @import "variables/color_variables";
+  @import "common";
 
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-  Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  html,
+  body {
+    padding: 0;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  }
+
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    background-color: $body-bg-color;
+  }
+
+  #__next {
+    height: 100%
+  }
+
 }
-
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-body {
-  background-color: $body-bg-color;
-}
-

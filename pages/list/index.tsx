@@ -46,7 +46,7 @@ const Index: React.FC = () => {
         <HeaderComponent />
         <Row justify="center" className={styles.main}>
           <Col className={styles.left} xs={24} sm={24} md={16} lg={18} xl={14}>
-            <div>
+            <div className="bread-container">
               <Breadcrumb>
                 <Breadcrumb.Item>
                   <a href="/">首页</a>

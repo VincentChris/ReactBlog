@@ -14,18 +14,18 @@ const themeVariables = lessToJS(
 const lessNextConfig = {
   lessLoaderOptions: {
     javascriptEnabled: true,
-    modifyVars: themeVariables
+    modifyVars: themeVariables,
   },
 };
 
 const sassNextConfig = {
   cssModules: true,
   cssLoaderOptions: {
-    localIdentName: "[name][local]_[hash:base64:5]"
-  }
+    localIdentName: "[folder]_[local]_[hash:base64:5]",
+  },
 };
 
 module.exports = withPlugins([
   [withLess, lessNextConfig],
-  [withSass, sassNextConfig]
+  [withSass, sassNextConfig],
 ]);

@@ -28,6 +28,7 @@ module.exports = {
     "react/jsx-filename-extension": "off",
     // "import/no-unresolved": "off",
     "jsx-a11y/alt-text": "off",
+    "react/jsx-props-no-spreading": "off",
     "import/extensions": [
       "error",
       "ignorePackages",

@@ -10,7 +10,7 @@ module.exports = {
   ],
   settings: {
     "import/resolver": {
-      typescript: {}, // this loads <rootdir>/tsconfig.json to eslint
+      typescript: {},
     },
   },
   parser: "@typescript-eslint/parser",
@@ -28,5 +28,15 @@ module.exports = {
     "react/jsx-filename-extension": "off",
     // "import/no-unresolved": "off",
     "jsx-a11y/alt-text": "off",
+    "import/extensions": [
+      "error",
+      "ignorePackages",
+      {
+        js: "never",
+        jsx: "never",
+        ts: "never",
+        tsx: "never",
+      },
+    ],
   },
 };

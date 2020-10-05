@@ -24,6 +24,12 @@
       ],
       "@api/*": [
         "public/api/*"
+      ],
+      "@components/*": [
+        "components/*"
+      ],
+      "@pages/*": [
+        "pages/*"
       ]
     }
   },

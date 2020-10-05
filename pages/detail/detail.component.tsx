@@ -1,12 +1,11 @@
 import React from "react";
-import styles from "./list.scss";
-import Head from "next/head";
-import Header from "../components/Header";
 import { Col, Row } from "antd";
+import HeaderComponent from "@components/Header/Header.component";
+import styles from "./detail.component.scss";
 
-const List = (props) => (
+const DetailComponent = () => (
   <div className={styles.container}>
-    <Header />
+    <HeaderComponent />
     <Row justify="center" className={styles.main}>
       <Col className={styles.left} xs={24} sm={24} md={16} lg={18} xl={14}>
         left
@@ -18,4 +17,4 @@ const List = (props) => (
   </div>
 );
 
-export default List;
+export default DetailComponent;
